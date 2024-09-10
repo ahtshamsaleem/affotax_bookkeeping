@@ -23,7 +23,7 @@ export default async function handler(req, res) {
     // Set up email data
     const mailOptions = {
       from: "info@affotax.com",
-      to: "info@affotax.com",    // "info@affotax.com"
+      to: "ahtshamsaleem51@gmail.com",    // "info@affotax.com"
       subject: `Affotax Bookkeeping | New message from ${name} `,
       html: `<p><strong>Name:</strong> ${name}</p>
              <p><strong>Email:</strong> ${email}</p>
